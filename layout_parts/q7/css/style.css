@@ -2,4 +2,100 @@
 
 /* 回答はここに書いてね */
 
+
+.clearfix:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+.floatbox{
+  width: 225px;
+  float: left;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-left: 50px;
+}
+.floatbox:first-child{
+  margin-left: 0;
+}
+
+.table{
+  display: table;
+}
+.cell{
+  display: table-cell;
+  box-sizing: border-box;
+  padding-left: 50px;
+  vertical-align: middle;
+  box-sizing: content-box;
+  width: 225px;
+}
+.tabletext{
+  font-size: 16px;
+}
+.cell:first-child{
+  padding: 0px;
+}
+.inline-block{
+  font-size: 0;
+}
+.inline-blocktext{
+  display: inline-block;
+  vertical-align:middle;
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-left: 50px;
+}
+.inline-blocktext:first-child{
+  margin-left: 0px;
+}
+.flex{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+.flexitem{
+  font-size: 16px;
+  box-sizing: border-box;
+  width: 225px;
+}
+
+.q7_5parent{
+  font-size: 0;
+  box-sizing: border-box;
+}
+
+.q7_5child{
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+.q7_5child:first-child{
+  width: 300px;
+}
+.q7_5child:last-child{
+  padding-left: 350px;
+  margin-left: -300px;
+  width: 100%;
+}
+
+.q7_5grandchild{
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 回答はここに書いてね */

@@ -1,5 +1,30 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q10-box{
+  border-radius: 30px;
+  width: 500px;
+  border: 5px solid #222;
+  margin: 0 auto;
+  position: relative;
+  padding: 20px;
+}
+.q10-box:before,
+.q10-box:after{
+  content: "";
+  position: absolute;
+  border: 20px solid transparent;
+}
+.q10-box:before{
+  left: 30px;
+  border-top-color: #222;
+  bottom: -45px;
+}
+.q10-box:after {
+  left: 30px;
+  border-top-color:#fff;
+  bottom: -38px;
+}
+
 
 /* 回答はここに書いてね */

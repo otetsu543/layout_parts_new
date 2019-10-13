@@ -30,28 +30,28 @@
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
           <!-- 新たにタグは追加しなくてもできます。 -->
-          <div class="q8 q8--btn">
+          <div class="q8 q8--btn small">
             <p class="q8__title">ー small ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="button common">common</div>
+            <div class="button error">error</div>
+            <div class="button disabled">disabled</div>
+            <div class="button shadow">shadow</div>
           </div>
 
-          <div class="q8 q8--btn">
-            <p class="q8__title">ー middle ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+          <div class="q8 q8--btn middle">
+            <p class="q8__title ">ー middle ー</p>
+            <div class="button common">common</div>
+            <div class="button error">error</div>
+            <div class="button disabled">disabled</div>
+            <div class="button shadow">shadow</div>
           </div>
 
-          <div class="q8 q8--btn">
-            <p class="q8__title">ー large ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+          <div class="q8 q8--btn large">
+            <p class="q8__title ">ー large ー</p>
+            <div class="button common">common</div>
+            <div class="button error">error</div>
+            <div class="button disabled">disabled</div>
+            <div class="button shadow">shadow</div>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
@@ -98,8 +98,53 @@
           -->
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
-          <div class="q8">
-            
+          <div class="q8 ">
+            <form class="form">
+              <div class="q-8title">
+                <p class="title-text">Form Exercise</p></div>
+
+                <div class="clearfix">
+                  <div class="main">
+                    <ul class="main-item">
+                      <li class="clearfix">
+                        <p class="main-text">名前<span class="is-required">*</span>
+                        </p>
+                        <div class="main-content"><input class="input" type="text" name="name" required></div>
+                      </li>
+                      <li class="clearfix">
+                        <p class="main-text">性別</p>
+                        <div class="main-content">
+                          <label class="radio-box"><input class="radio" type="radio" name="seibetsu" value="male" ><span class="radio-text">男性</span></input></label>
+                          <label class="radio-box"><input class="radio" type="radio" name="seibetsu" Value="female"><span class="radio-text">女性></span></input></label></div>
+                      </li>
+                      <li class="clearfix">
+                        <p class="main-text">出身</p>
+                        <div class="main-content select"><select name="syusshin" class="input select-content" >
+                          <option value="tokyo">東京<option value="saitama">埼玉<option value="chiba">千葉<option value="kanagawa">神奈川</datalist></select></div>
+                      </li>
+                      <li class="clearfix">
+                        <p class="main-text">Eメール<span class="is-required">*</span></p>
+                        <div class="main-content"><input class="input" type="email" name="Email" placeholder="ex)hoge@gmail.com" required></div>
+                      </li >
+                      <li class="clearfix">
+                        <p class="main-text">電話番号</p>
+                        <div class="main-content"><input class="input" type=telehpone name="denwa" placeholder="ex)08012345678" ></div>
+                      </li>
+                      <li class="clearfix">
+                        <div class="main-content"><div class="check"><input class="input-checkbox"id="check" type="checkbox" name="nenrei" value="true"> 
+                        <label for="check"class="check-text">20歳以上です</label></div></div>
+                      </li>
+                    </ul>
+                    <div class="bottom">
+                      <button class="bottom-bottun" type="submit">送信</button>
+                    </div>
+                  </div>
+                  <div class="side">
+                    <textarea class="side-box" name="sidebox" placeholder="何かあれば入力してください。"></textarea>
+                  </div>
+
+                </div>
+            </form>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
