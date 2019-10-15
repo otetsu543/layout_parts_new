@@ -35,6 +35,7 @@
 }
 .disabled{
   background-color: #e5e5e5;
+  cursor: default;
 }
 .shadow{
   background-color: #ffffff;
@@ -45,6 +46,17 @@
   content:"";
   display: block;
   clear: both;
+}
+.init{
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 .form{
   width: 700px;
@@ -106,6 +118,9 @@
   line-height: 12px;
   box-sizing: border-box;
   border: none;
+}
+.input:focus {
+ box-shadow:0 0 7px #00BCD4;
 }
 .radio-box{
   cursor: pointer;
@@ -223,5 +238,11 @@
   resize: none;
   border: none;
 }
-
+.bottom-bottun:active {
+  background: #fff;
+  color: #00BCD4;
+}
+.side-box:focus{
+  box-shadow: 0 0 7px #00BCD4;
+}
 /* 回答はここに書いてね */
